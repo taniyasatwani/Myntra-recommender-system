@@ -16,11 +16,8 @@ Most of the fashion purchases are when done when you see someone using the produ
 ## Overview
 Get the dataset from `Kaggle`, it contains 44K images of different fashion clothing. 
 
-Model is trained using Resnet50 with max pooling layer. Features are extracted from the images.
+Model is trained using `Resnet50` with `max pooling layer`. Features are extracted from the images.
 
-Nearest neighbour with eucladian distance is used to predict top 5 images similar to user's interest. 
+`Nearest neighbour` with `euclidean distance` is used to predict top 5 images similar to user's interest. 
 
-Front end is developed using Streamlit.
-
-
-
+Front end is developed using `Streamlit`.
